@@ -1,0 +1,225 @@
+body{
+  color: white;
+  background-color: Black;
+  font-family: 'Dancing Script', cursive;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  color: white;
+}
+header{
+  background-color:#5b7989;
+  border-radius: 10px 10px 0px 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+header h1{
+  width: 60%;
+  text-align: left;
+  padding-left: 1%;
+  font-size: 30px;
+	text-shadow: 2px 2px 5px #02010a;
+}
+header h2{
+  width: 40%;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 1%;
+}
+img {
+	padding: 0%;
+  margin: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 2px 2px 5px #02010a;
+}
+#seccion1{
+  background-color:#82c3a6;
+  padding: 2%;
+}
+#seccion2{
+  display: flex;
+  flex-direction: row;
+  background-color:#d5c75f;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#seccion2 a{
+  color: Black;
+  font-size: 2.5vw;
+  line-height: 60px;
+}
+#cuerpo{
+  background-color:#d5c75f;
+}
+#cuerpo img{
+  width: 29.1%;
+  height: 85%;
+}
+#seccion3{
+  display: flex;
+  flex-direction: row;
+}
+#seccion4{
+  display: flex;
+  flex-direction: row;
+}
+
+#img2 {
+  float: left;
+  padding: 2%;
+}
+#img2 img{
+  padding: 0%;
+}
+#img3 {
+  float: right;
+  padding: 2%;
+}
+#img3 img{
+  padding: 0%;
+}
+#img2 img:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 5px #82c3a6;
+}
+#img3 img:hover{
+  transform: translate(20px, -5px);
+  box-shadow: 2px 2px 5px #82c3a6;
+}
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  line-height: 70%;
+  color: Black;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 1vw;
+}
+footer p{
+  line-height: 100%;
+}
+footer h2{
+  font-size: 2vw;
+  font-weight: bold;
+}
+#contacto{
+  margin-left: 1%;
+  width: 25%;
+}
+#terminos{
+  width: 25%;
+  margin-left: 1%;
+}
+#redes{
+  width: 25%;
+  margin-left: 1%;
+}
+#redes table{
+padding-bottom: 20px;
+
+}
+#redes a{
+  font-size: 1.5vw;
+  color: blue;
+  text-decoration:none;
+}
+#derechos{
+  width: 25%;
+  font-size: 1.5vw;
+  margin-left: 1%;
+}
+#imgA1{
+  filter: blur(10px);
+}
+#imgA2{
+  filter: grayscale(100%);
+}
+#imgA3{
+  filter: sepia(90%);
+}
+#imgA4{
+  filter: grayscale(100%);
+}
+#imgA6{
+  filter: grayscale(100%);
+}
+#imgB1{
+  filter: blur(10px);
+}
+#imgB2{
+  filter: grayscale(100%);
+}
+#imgB3{
+  filter: sepia(90%);
+}
+#imgB4{
+  filter: grayscale(100%);
+}
+#imgB6{
+  filter: grayscale(100%);
+}
+
+@media screen and (max-width:900px) {
+
+    header{
+      flex-direction: column;
+    }
+    header h1{
+      padding-left: 0%;
+      text-align: center;
+      font-size: 20px;
+      width: 100%;
+    }
+    header h2{
+      padding-left: 0%;
+      font-size: 15px;
+      width: 100%;
+    }
+    #seccion2{
+      flex-direction: column;
+    }
+    #seccion2 a{
+      font-size: 5vw;
+    }
+    #seccion3{
+      flex-direction: column;
+    }
+    #cuerpo img{
+      width: 96%;
+    }
+    #seccion4{
+      flex-direction: column;
+    }
+
+    footer{
+      flex-direction: column;
+    }
+    #contacto{
+      width: 100%;
+      font-size: 6vw;
+    }
+    #terminos{
+      width: 100%;
+      font-size: 6vw;
+    }
+    #redes{
+      width: 100%;
+      font-size: 6vw;
+    }
+    #redes a{
+      font-size: 6vw;
+    }
+    footer h2{
+      font-size: 6vw;
+    }
+    #derechos{
+      width: 100%;
+      font-size: 6vw;
+    }
+}
